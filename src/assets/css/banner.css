@@ -1,0 +1,81 @@
+.banner_main {
+    font-family: 'Andale Mono';
+    position: fixed;
+    top: 0;
+    margin: 0;
+    width: 95%;
+    padding: 20px;
+    padding-bottom: 2px;
+    /* border-bottom: 1px solid bisque; */
+    
+}
+#heading { 
+    
+    font-size: 2.5em;
+    color: rgb(33, 172, 166);
+}
+#heading>a> .blinking{
+    color: rgb(33, 172, 166) !important;
+}
+
+#heading > a {
+    text-decoration: none;
+    color: rgb(33, 172, 166) !important;
+    border:1px solid;
+    padding: 5px;
+}
+.banner_items { 
+    display: inline;
+    float: right;
+    margin-right: 20px;
+}
+.banner_items > li{
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+    color: rgb(33, 172, 166);
+    cursor: pointer;
+}
+.banner_items > li > a {
+    text-decoration: none;
+    color: rgb(33, 172, 166) !important;
+}
+.banner_items> li:hover{
+    color:white;
+    
+    transition: 0.4s ease-in;
+}
+.blinking{
+    animation:blinkingTextWhite 2s infinite;
+}
+@keyframes blinkingTextWhite {
+    60% {
+        opacity: 0.1;
+        }
+    
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+
+.button{
+    color :rgb(33, 172, 166);
+    border: 1px solid rgb(33, 172, 166);
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+
+    box-shadow: 1px 2px 3px black;
+    transition: 0.2s ease-in-out;
+}
+
+.button:hover {
+    color: white;
+    box-shadow: none;
+}

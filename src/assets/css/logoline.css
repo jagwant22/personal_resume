@@ -1,0 +1,13 @@
+.logo_line { 
+    margin-top: 5%;
+}
+.logo_item{
+    list-style: none;
+    display: inline;
+}
+
+.logo_image{
+    width: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+}

@@ -1,0 +1,16 @@
+.name {
+    font-size: 80px;
+    color: rgb(204, 214, 246);
+    margin-left: 20px;
+    line-height: 1.2;
+    font-family: Open Sans;
+
+}
+
+
+.who_am_i_desc{
+    font-family: "Open Sans", "sans-serif";
+    font-size: 40px;
+    color: #aaa;
+    margin-left:20px;
+}

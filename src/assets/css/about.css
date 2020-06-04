@@ -1,0 +1,24 @@
+.about {
+    font-family: "Jetbrains Mono" , "sans-serif";
+    color: rgb(33, 172, 166);
+    font-weight: 600;
+    height: 80vh;
+    margin-left: 10vw;
+    width: 60vw;
+    /* margin: 0 auto; */
+}
+.about_divide{
+    font-weight: 400;
+    color:white;
+    display: flex;
+}
+
+.about_content{
+    flex: 60%;
+}
+.about_sep{
+    flex:10%;
+}
+.about_pic {
+    flex:30%;
+}
