@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/personal_resume/static/css/main.b0a9ba46.chunk.css",
+    "main.js": "/personal_resume/static/js/main.5d94c8d8.chunk.js",
+    "main.js.map": "/personal_resume/static/js/main.5d94c8d8.chunk.js.map",
+    "runtime-main.js": "/personal_resume/static/js/runtime-main.5cc13d2c.js",
+    "runtime-main.js.map": "/personal_resume/static/js/runtime-main.5cc13d2c.js.map",
+    "static/js/2.8119b4e5.chunk.js": "/personal_resume/static/js/2.8119b4e5.chunk.js",
+    "static/js/2.8119b4e5.chunk.js.map": "/personal_resume/static/js/2.8119b4e5.chunk.js.map",
+    "index.html": "/personal_resume/index.html",
+    "precache-manifest.79ca51dc0a4457b5ef645dec89d93250.js": "/personal_resume/precache-manifest.79ca51dc0a4457b5ef645dec89d93250.js",
+    "service-worker.js": "/personal_resume/service-worker.js",
+    "static/css/main.b0a9ba46.chunk.css.map": "/personal_resume/static/css/main.b0a9ba46.chunk.css.map",
+    "static/js/2.8119b4e5.chunk.js.LICENSE.txt": "/personal_resume/static/js/2.8119b4e5.chunk.js.LICENSE.txt",
+    "static/media/aws.svg": "/personal_resume/static/media/aws.fdff4014.svg",
+    "static/media/css3.svg": "/personal_resume/static/media/css3.3707da3c.svg",
+    "static/media/django.svg": "/personal_resume/static/media/django.bcf22073.svg",
+    "static/media/docker.svg": "/personal_resume/static/media/docker.71183073.svg",
+    "static/media/gcp.svg": "/personal_resume/static/media/gcp.09643848.svg",
+    "static/media/home-image.jpg": "/personal_resume/static/media/home-image.0ce6aade.jpg",
+    "static/media/html5.svg": "/personal_resume/static/media/html5.f0361c5e.svg",
+    "static/media/java.svg": "/personal_resume/static/media/java.bcfad0f2.svg",
+    "static/media/js.svg": "/personal_resume/static/media/js.891a71b9.svg",
+    "static/media/mongodb.svg": "/personal_resume/static/media/mongodb.2985235d.svg",
+    "static/media/mysql.svg": "/personal_resume/static/media/mysql.f80a91ba.svg",
+    "static/media/python.svg": "/personal_resume/static/media/python.f97df66d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5cc13d2c.js",
+    "static/js/2.8119b4e5.chunk.js",
+    "static/css/main.b0a9ba46.chunk.css",
+    "static/js/main.5d94c8d8.chunk.js"
+  ]
+}
