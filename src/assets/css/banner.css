@@ -38,11 +38,16 @@
 }
 .banner_items > li > a {
     text-decoration: none;
-    color: rgb(33, 172, 166) !important;
+    color: rgb(33, 172, 166) ;
+    cursor: pointer;
+
 }
-.banner_items> li:hover{
-    color:white;
-    
+.banner_items > li > a :hover {
+    color: white !important;
+
+}
+.banner_items> li :hover{
+    color:white !important;
     transition: 0.4s ease-in;
 }
 .blinking{

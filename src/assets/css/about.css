@@ -1,11 +1,11 @@
 .about {
-    font-family: "Jetbrains Mono" , "sans-serif";
+    font-family: 'Source Sans Pro', sans-serif;
     color: rgb(33, 172, 166);
     font-weight: 600;
     height: 80vh;
     margin-left: 10vw;
     width: 60vw;
-    /* margin: 0 auto; */
+    font-size: large;
 }
 .about_divide{
     font-weight: 400;
