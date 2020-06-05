@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/personal_resume/static/css/main.b0a9ba46.chunk.css",
-    "main.js": "/personal_resume/static/js/main.5d94c8d8.chunk.js",
-    "main.js.map": "/personal_resume/static/js/main.5d94c8d8.chunk.js.map",
+    "main.css": "/personal_resume/static/css/main.02206ee2.chunk.css",
+    "main.js": "/personal_resume/static/js/main.916dd15d.chunk.js",
+    "main.js.map": "/personal_resume/static/js/main.916dd15d.chunk.js.map",
     "runtime-main.js": "/personal_resume/static/js/runtime-main.5cc13d2c.js",
     "runtime-main.js.map": "/personal_resume/static/js/runtime-main.5cc13d2c.js.map",
     "static/js/2.8119b4e5.chunk.js": "/personal_resume/static/js/2.8119b4e5.chunk.js",
     "static/js/2.8119b4e5.chunk.js.map": "/personal_resume/static/js/2.8119b4e5.chunk.js.map",
     "index.html": "/personal_resume/index.html",
-    "precache-manifest.243418aee94b3aead0f95975b5ec3a3b.js": "/personal_resume/precache-manifest.243418aee94b3aead0f95975b5ec3a3b.js",
+    "precache-manifest.617bbc99663703c29d3613885794d806.js": "/personal_resume/precache-manifest.617bbc99663703c29d3613885794d806.js",
     "service-worker.js": "/personal_resume/service-worker.js",
-    "static/css/main.b0a9ba46.chunk.css.map": "/personal_resume/static/css/main.b0a9ba46.chunk.css.map",
+    "static/css/main.02206ee2.chunk.css.map": "/personal_resume/static/css/main.02206ee2.chunk.css.map",
     "static/js/2.8119b4e5.chunk.js.LICENSE.txt": "/personal_resume/static/js/2.8119b4e5.chunk.js.LICENSE.txt",
     "static/media/aws.svg": "/personal_resume/static/media/aws.fdff4014.svg",
     "static/media/css3.svg": "/personal_resume/static/media/css3.3707da3c.svg",
@@ -23,12 +23,13 @@
     "static/media/js.svg": "/personal_resume/static/media/js.891a71b9.svg",
     "static/media/mongodb.svg": "/personal_resume/static/media/mongodb.2985235d.svg",
     "static/media/mysql.svg": "/personal_resume/static/media/mysql.f80a91ba.svg",
-    "static/media/python.svg": "/personal_resume/static/media/python.f97df66d.svg"
+    "static/media/python.svg": "/personal_resume/static/media/python.f97df66d.svg",
+    "static/media/react.svg": "/personal_resume/static/media/react.4009eef3.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.5cc13d2c.js",
     "static/js/2.8119b4e5.chunk.js",
-    "static/css/main.b0a9ba46.chunk.css",
-    "static/js/main.5d94c8d8.chunk.js"
+    "static/css/main.02206ee2.chunk.css",
+    "static/js/main.916dd15d.chunk.js"
   ]
 }
