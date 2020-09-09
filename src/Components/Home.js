@@ -1,14 +1,25 @@
 import React, {Component} from 'react';
 import Banner from './Banner';
 import Footer from './Footer';
+import Experience from './Experience';
 import LogoLine from './Microcomponents/Home/LogoLine';
+import Social from './Microcomponents/Home/Social';
 import '../assets/css/home.css';
 import About from './Microcomponents/Home/About';
+
+import { educationDetails, experienceDetails } from './details';
 export default class Home extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            nvBgColor : null
+        }
+    }
     render() {
         return (
             <div className='container'>
-                <Banner />
+                <Banner bgcolor={this.state.nvBgColor}/>
                 <div id='content-container'>
                     {/* <UserImage height="300px" width="300px"/> */}
                     <span className='intro_hello'>
@@ -49,6 +60,10 @@ export default class Home extends Component {
                     {/* <LogoLine width="100px" imgs={["mysql", "mongodb"]}/>  */}
                 </div>
                 <About />
+                <Experience title="Experience " details={experienceDetails} />
+                {/* <Social /> */}
+                <Experience title="Education" details={educationDetails}/>
+                
                 <Footer />
             </div>
         ) ;

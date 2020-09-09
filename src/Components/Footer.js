@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import Social from './Microcomponents/Home/Social';
 
 export default class Footer extends Component{
     
@@ -8,11 +8,15 @@ export default class Footer extends Component{
             textAlign:"center",
             position : "relative",
             bottom:0,
-            color:"white"
+            color:"white",
+            paddingTop:"25px",
+            paddingBottom : "5px",
+            borderTop: "1px solid"
+
         };
         return(
-            <div className ="footer_main" style={{footerStyle}}>
-                <span>Designed and developed by Jagwant Sehgal</span>
+            <div style={footerStyle} className ="footer_main" >
+                <Social />
             </div>
         );
     }

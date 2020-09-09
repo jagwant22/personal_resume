@@ -2,9 +2,9 @@
     font-family: 'Source Sans Pro', sans-serif;
     color: rgb(33, 172, 166);
     font-weight: 600;
-    height: 80vh;
+    height: 60vh;
     margin-left: 10vw;
-    width: 60vw;
+    width: 55vw;
     font-size: large;
 }
 .about_divide{
@@ -15,6 +15,7 @@
 
 .about_content{
     flex: 60%;
+    color: rgb(204, 214, 246);
 }
 .about_sep{
     flex:10%;

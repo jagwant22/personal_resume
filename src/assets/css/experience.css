@@ -1,0 +1,87 @@
+.experience{
+    font-family: 'Andale Mono', sans-serif;
+    color: rgb(33, 172, 166);
+    font-weight: 600;
+    height: auto;
+    margin-left: 15vw;
+    width: 50vw;
+    font-size: large;
+    margin-top:10vh;
+    margin-bottom:10vh;
+}
+.exp_item_holder{
+    display: flex;
+}
+.experience > h3 {
+    color: rgb(33, 172, 166);
+}
+
+.exp_items { 
+    list-style: none;
+    display: flex;
+    flex:30%;
+    flex-direction: column;
+    padding:1%;
+    
+}
+
+.exp_item { 
+    padding-left: 15px;
+    color: rgb(204, 214, 246);
+    font-weight: 400;
+    
+    font-size: small;
+    font-family: 'Andale Mono', sans-serif;
+    margin-bottom: 5vh;
+    cursor: pointer;
+    transition-duration: 0.25s;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition-delay: initial;
+    transition-property: all;
+}
+.exp_item :hover { 
+    transition-duration: 0.35s;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition-delay: initial;
+    transition-property: all;
+    color: black;
+    background: white;
+}
+
+.exp_item.active {
+    border-left: 3px solid rgb(33, 172, 166);
+}
+
+.exp_details {
+    flex:60%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    padding: 1%;
+    font-weight: 400;
+    font-size: small;
+    color: #eee;
+    margin-left: 10vw;
+}
+
+.exp_desig{
+    display: block;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.exp_loca{
+    display: block;
+}
+.exp_full{
+    font-family: 'Andale Mono';
+    display: block;
+    font-size: medium;
+}
+.exp_margin{
+    margin-bottom: 1%;
+}
+.det {
+    margin-bottom: 4vw;
+    line-height: 2;
+    
+}
